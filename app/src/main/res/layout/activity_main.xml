@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -15,9 +16,10 @@
         android:paddingEnd="8dp"
         android:paddingVertical="12dp"
         >
-        <ImageView
+        <com.google.android.material.imageview.ShapeableImageView
             android:layout_width="93dp"
             android:layout_height="93dp"
+            app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Medium"
             android:src="@drawable/pic"
             android:contentDescription="@string/danial_picture"/>
 
